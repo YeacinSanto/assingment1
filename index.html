@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-dark text-white">
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid d-flex justify-content-around">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="icons/logo.png" alt="logo" width="100" height="100">
+                    </a>
+                </div>
+                <div>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li><button class="btn btn-primary">
+                                    <a href="Yeacin's_CV.pdf" download class="text-white text-decoration-none">
+                                        Resume <i class="fa-solid fa-download"></i>
+                                    </a>
+                                </button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="banner-container row mt-4 justify-content-center mx-auto" style="max-width: 1200px;">
+            <div class="introduction col-md-7 col-sm-12">
+                <h1>HI!</h1>
+                <h1>I'M GIAS UDDIN</h1>
+                <h5>Web Developer || React Developer || Programmer</h5>
+                <p>I am an enthusiastic JavaScript developer with knowledge of both frontend and backend frameworks. I
+                    know basic PHP and MySQL, but I am primarily a MERN developer.</p>
+                <div class="d-flex justify-content-around w-50">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                    <i class="fa-brands fa-youtube fa-2x"></i>
+                    <button class="btn btn-primary">
+                        <a href="Yeacin's_CV.pdf" download class="text-white text-decoration-none">
+                            Resume <i class="fa-solid fa-download"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="photo `col-md-5 col-sm-12">
+                <img src="images/gias.jpg" width="300" height="450" class="img-fluid" alt="">
+            </div>
+        </section>
+
+    </header>
+    <section class="projects mt-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Portfolio</h1>
+            <div class="card mb-4 bg-dark text-white border" style="max-width: 900px; margin: auto;">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-4">
+                        <div id="carouselProject1" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Online University</h5>
+                            <p class="card-text">This is a travel service agency website. Users can log in via Facebook
+                                or Google, or create a new account. They can choose services and vehicles, and see their
+                                current location using Firebase authentication.</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button class="btn btn-secondary btn-sm">React</button>
+                                <button class="btn btn-secondary btn-sm">Firebase</button>
+                                <button class="btn btn-secondary btn-sm">HTML</button>
+                                <button class="btn btn-secondary btn-sm">CSS</button>
+                                <button class="btn btn-secondary btn-sm">Node</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4 bg-dark text-white border" style="max-width: 900px; margin: auto;">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-4">
+                        <div id="carouselProject1" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Online University</h5>
+                            <p class="card-text">This is a travel service agency website. Users can log in via Facebook
+                                or Google, or create a new account. They can choose services and vehicles, and see their
+                                current location using Firebase authentication.</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button class="btn btn-secondary btn-sm">React</button>
+                                <button class="btn btn-secondary btn-sm">Firebase</button>
+                                <button class="btn btn-secondary btn-sm">HTML</button>
+                                <button class="btn btn-secondary btn-sm">CSS</button>
+                                <button class="btn btn-secondary btn-sm">Node</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <h3 class="mt-3">Expertise:</h3>
+                <span>
+                    <h4 class="badge text-bg-secondary">React.js</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">JavaScript</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">node.js</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Firebase</h4>
+                </span>
+                <br>
+                <span>
+                    <h4 class="badge text-bg-secondary">Express.js</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">HTML</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Bootstrap</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">MongoDB</h4>
+                </span>
+
+                <h3 class="mt-3">Comfortable:</h3>
+                <span>
+                    <h4 class="badge text-bg-secondary">SQL</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Redux</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Socket.io</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">AWS</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Docker</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Typescript</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Next.js</h4>
+                </span>
+
+                <h3 class="mt-3">Familiar:</h3>
+                <span>
+                    <h4 class="badge text-bg-secondary">C++</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Python</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Spring Boot</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Networking</h4>
+                </span>
+
+                <h3 class="mt-3">Tools:</h3>
+                <span>
+                    <h4 class="badge text-bg-secondary">VS CODE</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">JIRA</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Trello</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">Git</h4>
+                </span>
+                <span>
+                    <h4 class="badge text-bg-secondary">GitHub</h4>
+                </span>
+            </div>
+            <div class="education col-lg-6 col-12 mt-5">
+                <h1>My Education</h1>
+                <h3>Bsc Computer Engineering</h3>
+                <h3>Politecnico di Torino</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact mt-5">
+        <h1 class="text-center">Contact With Me</h1>
+        <div class="d-flex justify-content-center mt-3">
+            <form class=" border p-5">
+                <div class="mb-3">
+
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                        placeholder="please enter your name" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <input type="name" class="form-control" id="exampleInputEmail1"
+                        placeholder="please enter your email" aria-describedby="emailHelp">
+                </div>
+                <div class="input-group mb-3">
+
+                    <textarea class="form-control" aria-label="With textarea"
+                        placeholder="Type your thoughts"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+    <hr>
+    <footer class="d-flex justify-content-center">
+        <div>
+            <small>Copyright &copy; 2021 | gias uddin</small>
+            <br>
+            <small>kunming,yunnan,china</small>
+            <br>
+            <div class="d-flex justify-content-around mt-3">
+                <i class="fa-brands fa-github fa-lg"></i>
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+                <i class="fa-brands fa-youtube fa-lg"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
